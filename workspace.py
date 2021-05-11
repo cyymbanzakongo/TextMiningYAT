@@ -21,9 +21,7 @@ def process(file):
     print(len(df) - n)  # 39708
 
 
-in_file = Path.cwd() / 'dbs' / 'twitter_for_filtering.csv'
-in_file2 = Path.cwd() / 'dbs' / 'twitter_racism_parsed_dataset.csv'
-
+in_file = Path.cwd() / 'tweets_no_duplicates.csv'
 
 def ret():
     df = pd.read_csv(in_file)
@@ -39,3 +37,8 @@ def ret():
     df.insert(4, 'lang', langs_lst)  # insert column at last index point
     df_fltrd = df[df['lang'] == 'en']  # new filtered dataframe from old one
     df_fltrd.to_csv('./dbs/tweets_fltrd.csv')
+
+
+def ret2():
+    df = pd.read_csv(in_file)
+    print(df["Label"].value_counts())
