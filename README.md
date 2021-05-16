@@ -8,4 +8,4 @@ Yiyang Cheng, Amaan Syed, Tori Baral
 notebook containing training, exploration, and testing
 
 ## Processed_datasets folder:
-two preprocessing notebooks, for training and testing set
+preprocessing notebooks, for training and testing set and final databases
