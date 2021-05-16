@@ -7,5 +7,5 @@ Yiyang Cheng, Amaan Syed, Tori Baral
 ## Models folder:
 notebook containing training, exploration, and testing
 
-## Processed datasets folder:
+## Processed_datasets folder:
 two preprocessing notebooks, for training and testing set
